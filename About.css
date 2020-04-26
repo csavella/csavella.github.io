@@ -1,0 +1,13 @@
+/*float and wrap text around images*/
+img {
+    max-width: 20%;
+    max-height: 20%;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+p {
+    text-align: left;
+    padding-top: 10px;
+}
