@@ -71,3 +71,27 @@ a:after {
 a:hover:after, a:focus:after, a:active:after{
     width: 100%;
 }
+
+/*section breaks*/
+hr {
+    border: 1px solid;
+    color: white;
+    clear: both;
+}
+
+/*header and footer*/
+header {
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+footer {
+    color: white;
+    font-size: 0.75em;
+    font-weight: 600;
+    background: rgb(25, 29, 25);
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+}
