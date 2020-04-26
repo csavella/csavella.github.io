@@ -1,0 +1,23 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*background*/
+body {
+    background-color: rgb(32, 68, 32);
+    background: url(background-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*center everything on page*/
+.container {
+    text-align: center;
+    display: block;
+    width: 75%;
+    margin: auto;
+    background-color: none;
+  }
