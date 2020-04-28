@@ -15,7 +15,7 @@ body {
 }
 
 /*navigation bar*/
-ul {
+ul.homenav {
     list-style: none;
 }
 
