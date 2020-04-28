@@ -12,8 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* uncomment below for footer*/
-    /* padding-bottom: 20%; */
+    padding-bottom: 20%;
 }
 
 /*navigation bar*/
