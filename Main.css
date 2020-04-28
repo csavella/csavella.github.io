@@ -12,6 +12,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    /* uncomment below for footer*/
+    /* padding-bottom: 20%; */
 }
 
 /*navigation bar*/
@@ -25,19 +27,19 @@ li {
     vertical-align: middle;
 }
 
-a {
+a.navlink {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
     font-weight: bolder;
 }
 
-a:hover, a:focus, a:active {
+a.navlink:hover, a.navlink:focus, a.navlink:active {
     color: rgb(176, 231, 227);
     text-decoration: none;
 }
 
-a:after {
+a.navlink:after {
     content: '';
     width: 0px;
     height: 5px;
@@ -46,8 +48,19 @@ a:after {
     transition: 500ms;
 }
 
-a:hover:after, a:focus:after, a:active:after{
+a.navlink:hover:after, a.navlink:focus:after, a.navlink:active:after{
     width: 100%;
+}
+
+/*non-navigation bar links*/
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover, a:focus, a:active {
+    color: rgb(176, 231, 227);
+    text-decoration: underline;
 }
 
 /*section breaks*/
