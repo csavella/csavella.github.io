@@ -1,3 +1,13 @@
+/*center everything on page*/
+.container {
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+    background-color: none;
+    flex-wrap: wrap;
+  }
+
 .row {
     height: 500px;
     padding: 50px;

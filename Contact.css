@@ -1,0 +1,32 @@
+.container {
+    width: 70%;
+}
+
+.form-group, .form-control {
+    text-align: left;
+}
+
+textarea[id="message"] {
+  height: 100px;
+}
+
+button {
+    width: 49%;
+}
+
+button[type="submit"] {
+  background-color:rgb(35, 54, 43);
+  border-color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+  
+@media (max-width: 476px) {
+  .container {
+    width: 90%;
+  }
+}

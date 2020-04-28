@@ -14,15 +14,6 @@ body {
     background-size: cover;
 }
 
-/*center everything on page*/
- .container {
-    text-align: center;
-    display: block;
-    width: 75%;
-    margin: auto;
-    background-color: none;
-  }
-
 /*navigation bar*/
 ul {
     list-style: none;
