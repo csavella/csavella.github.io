@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="Projects.css" />
   </head>
   <body>
-    <!-- add your code below -->
     <header>Chastity Savella</header>
     <div class="container">
       <ul class="homenav">
@@ -26,24 +25,31 @@
       </ul>
     </div>
     <hr>
-    <div class="container" id="projects">
-      <section class="portfolio">
-        <h2>Projects</h2>
-        <h3>This Website</h3>
-        <img src="Images/Website.png" alt="portfolio">
-        <p>This website was created using html and css while leveraging bootstrap for responsive styles.<br>
+    <div class="container card">
+        <img class="card-img-top" src="Images/Website.png" alt="portfolio">
+        <div class="card-body">
+          <h3>This Website</h3>
+          <p class="card-text">This website was created using html and css while leveraging bootstrap for responsive styles.<br>
           <b>Link to GitHub:</b> <a href="https://github.com/csavella/csavella.github.io">github.io</a><br>
           <b>Contributions:</b> Design, implementation, testing, maintentance
         </p>
+      </div>
+    </div>
+    <div class="container card">
+      <img class="card-img-top" src="Images/battlecode.jpg" alt="battlecode">
+      <div class="card-body">
         <h3>Battlecode</h3>
-        <img src="Images/battlecode.jpg" alt="battlecode">
         <p>Battlecode is a real-time strategy game in which participants write an AI player to manage a robot
           army, using artificial intelligence, pathfinding, distributed algorithms, and communications
           to defeat the enemy team.<br>
           <b>Contributions:</b> Developer, test engineer, project manager
         </p>
+      </div>
+    </div>
+    <div class="container card">
+      <img class="card-img-top" src="Images/Curcumin.png" alt="Curcumin synthesis">
+      <div class="card-body">
         <h3>Organic Chemistry Research</h3>
-        <img src="Images/Curcumin.png" alt="Curcumin synthesis">
         <p>The purpose of this work was to synthesize a series of symmetrical analogs of curcumin and 
           determine their efficacy as antioxidant and anticancer agents in vitro.<br>
           <b>Link to article:</b> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ddr.21158">
@@ -51,10 +57,8 @@
             and Antioxidant Agents</a><br>
           <b>Contributions:</b> Research, derivative synthesis, instrumental analysis
         </p>
-      </section>
-      <hr> 
+      </div>
     </div>
-
     <!--bootstrap "getting started" guide said to add these scripts-->
     <script 
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 

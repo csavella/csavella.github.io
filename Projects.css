@@ -1,10 +1,22 @@
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: black;
+    padding: 30px;
+    max-width: 50%;
+}
 p {
     text-align: left;
     padding-top: 10px;
+    width: 100%;
 }
 
-.image {
-    width: 100%;
+img {
+    width: 50%;
     height: auto;
     border: 1px solid #ddd;
 }
