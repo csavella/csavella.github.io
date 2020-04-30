@@ -16,13 +16,22 @@
   <body>
     <header>Chastity Savella</header>
     <div class="container">
-      <ul class="homenav">
-        <li><a class="navlink" href="index.html">Home</a></li>
-        <li><a class="navlink" href="About.html">About</a></li>
-        <li><a class="navlink" href="Projects.html">Projects</a></li>
-        <li><a class="navlink" href="Resume.html">Resume</a></li>
-        <li><a class="navlink" href="Contact.html">Contact</a></li>
-      </ul>
+      <nav class="navbar navbar-expand-md navbar-dark mb-5">
+        <!-- to brand or not to brand???
+          <a class="navbar-brand" href="index.html">CS</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse navbar-light" id="navbar-items">
+          <ul class="navbar-nav mx-auto">
+            <li><a class="navlink" href="index.html">Home</a></li>
+            <li><a class="navlink" href="About.html">About</a></li>
+            <li><a class="navlink" href="Projects.html">Projects</a></li>
+            <li><a class="navlink" href="Resume.html">Resume</a></li>
+            <li><a class="navlink" href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <hr>
     <div class="container card">
