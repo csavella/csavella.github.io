@@ -22,6 +22,10 @@ li {
     vertical-align: middle;
 }
 
+.navbar-toggler { 
+    background-color: rgb(68, 68, 68);
+} 
+
 a.navlink {
     text-decoration: none;
     color: white;

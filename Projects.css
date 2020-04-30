@@ -20,3 +20,18 @@ img {
     height: auto;
     border: 1px solid #ddd;
 }
+
+@media (max-width: 768px) {
+    .card {
+      width: 85%;
+      max-width: 100%;
+    }
+  }
+    
+  @media (max-width: 476px) {
+    .card {
+      width: 95%;
+      max-width: 100%;
+    }
+  }
+

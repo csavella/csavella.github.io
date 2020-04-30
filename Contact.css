@@ -10,7 +10,7 @@ textarea[id="message"] {
   height: 100px;
 }
 
-button {
+button[type="submit"], button[type="reset"] {
     width: 49%;
 }
 
