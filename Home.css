@@ -2,7 +2,7 @@
 .container {
     text-align: center;
     display: block;
-    width: 80%;
+    max-width: 60%;
     margin: auto;
     background-color: none;
     flex-wrap: wrap;
@@ -35,6 +35,16 @@ h2:hover {
     color: rgb(176, 231, 227);
 }
 
- .home-grid {
-    padding-bottom: 20%;
-} 
+@media (max-width: 1200px) {
+    .container {
+      width: 75%;
+      max-width: 100%;
+    }
+  }
+    
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      max-width: 100%;
+    }
+  }
