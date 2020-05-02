@@ -1,9 +1,5 @@
-.container {
-    width: 70%;
-}
-
 .form-group, .form-control {
-    text-align: left;
+  text-align: left;
 }
 
 textarea[id="message"] {
@@ -19,14 +15,21 @@ button[type="submit"] {
   border-color: black;
 }
 
+/*width of form*/
+#contact {
+  max-width: 50%;
+}
+
 @media (max-width: 768px) {
-  .container {
+  #contact {
     width: 80%;
+    max-width: 95%;
   }
 }
   
 @media (max-width: 476px) {
-  .container {
+  #contact {
     width: 90%;
+    max-width: 95%;
   }
 }

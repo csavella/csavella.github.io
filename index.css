@@ -1,0 +1,55 @@
+/*center everything on page*/
+.container {
+    text-align: center;
+    display: block;
+    max-width: 60%;
+    margin: auto;
+    background-color: none;
+    flex-wrap: wrap;
+  }
+
+/*row spacing*/
+.row {
+  height: 500px;
+  padding: 50px;
+  margin: 5px;
+}
+
+/*make whole image clickable*/
+a.fill-div{
+  height: 100%;
+  width: 100%;
+}
+
+/*image filters and responses*/
+.image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  filter: grayscale(100%);
+}
+
+.image:hover {
+  box-shadow: 0 0 5px 1px rgba(0, 140, 186, 0.5);
+  filter: unset;
+}
+
+/*link - change color on hover*/
+h2:hover {
+  color: rgb(176, 231, 227);
+}
+
+/*media queries for different screen sizes*/
+@media (max-width: 1200px) {
+  .container {
+    width: 75%;
+    max-width: 100%;
+  }
+}
+    
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    max-width: 100%;
+  }
+}
