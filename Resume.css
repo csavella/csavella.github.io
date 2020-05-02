@@ -1,0 +1,13 @@
+.phoneview {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .phoneview {
+        display: contents;
+    }
+
+    #resume {
+        display: none;
+    }
+}

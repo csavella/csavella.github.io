@@ -32,4 +32,8 @@ button[type="submit"] {
     width: 90%;
     max-width: 95%;
   }
+
+  button[type="submit"], button[type="reset"] {
+    width: 100%;
+  }
 }
